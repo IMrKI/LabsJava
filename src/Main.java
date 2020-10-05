@@ -1,4 +1,4 @@
-public class main {
+public class Main {
 
     public static void main(String[] args) {
         System.out.println("Witaj w świecie Javy!");
@@ -10,7 +10,7 @@ public class main {
         System.out.println("Java\nPython\nC++");
 
         System.out.println("Ulubiony język programowania poznany do tej pory: ");
-        System.out.println("Java");
+        System.out.println("Java\n");
 
 
         int x, y;
@@ -20,8 +20,8 @@ public class main {
         double j;
         x = 0;
         y = 444;
-        z = 13;
         j = 0.002;
-        System.out.print("x = " + x + ", y = " + y + ", z = " + z + ", j = " + j + " Znak = " + znak);
+        System.out.print("i = " + i + ", x = " + x + ", y = " + y + ", z = " + z + ", j = " + j + " Znak = " + znak + "\n");
+        System.out.println("Na tym koniec");
     }
 }
